@@ -91,9 +91,20 @@ section {
 .donate-items div {
     margin: 2%;
     padding: 2%;
-    border-left: 5px solid red;
-    background-color: brown;
-    box-shadow: 10px 5px 5px lightcyan;
+    box-shadow: 10px 5px 5px;
+    box-shadow: 10px 5px 5px lightgray;
+}
+
+#box-color1 {
+    background-color: #f2f1ef;
+}
+
+#box-color2 {
+    background-color: #b1a6a4;
+}
+
+#box-color3 {
+    background-color: #badef2;
 }
 
 .donate-plan p {
@@ -274,8 +285,8 @@ footer {
 }
 
 .newsletter-email {
-    width: 60%;
-    margin: 90px 0px 100px 120px;
+    width: 85%;
+    margin: 90px 120px 100px 120px;
     height: 150px;
     justify-content: center;
     background-color: #fff4d6;
@@ -310,4 +321,29 @@ input[type=submit] {
     color: #FAFAFA;
     font-weight: 600;
     border-radius: 0px 5px 5px 0;
+}
+
+.updates-container {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#update {
+    text-align: center;
+    margin-top: 50px 0px;
+}
+
+#join-us {
+    text-align: center;
+    background-image: url(images/join\ us.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border: 5px solid orange;
+}
+
+#color-text {
+    color: rgb(235, 164, 34);
+    text-shadow: #3f3e3f;
 }
